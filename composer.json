@@ -24,11 +24,11 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         },
         "platform": {
-            "php": "8.0.99"
+            "php": "8.2.99"
         }
     },
     "require": {
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+        "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
         "bshaffer/oauth2-server-php": "^1.14.1",
         "laminas-api-tools/api-tools-api-problem": "^1.5",
         "laminas-api-tools/api-tools-content-negotiation": "^1.8.0",
@@ -52,6 +52,7 @@
         "phpspec/prophecy-phpunit": "^2.0",
         "phpunit/phpunit": "^9.5.10",
         "psalm/plugin-phpunit": "^0.16",
+        "rector/rector": "^2.4",
         "vimeo/psalm": "^4.23"
     },
     "suggest": {
